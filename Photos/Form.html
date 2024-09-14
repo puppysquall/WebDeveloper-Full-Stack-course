@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <div>
+        <h1>Juan Carlos Mora C</h1>
+        <table border="2">
+            <thead>
+                <!--Cabecera de la columnas a representar-->
+                <!--Colspan Cantidad de Columnas a unir-->
+                <tr>
+                    <th scope="col">Producto</th>
+                    <th scope="col">Categoría</th>
+                    <th scope="col">Cantidad</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--Cuerpo de la tabla-->
+                <tr>
+                    <td>Flour huila</td>
+                    <!--Rowspan Cantidad de Filas a unir-->
+                    <td>Arroz</td>
+                    <td>10</td>
+                    <td>$15.000</td>
+                    <td>$150.000</td>
+                </tr>
+                <tr>
+
+                    <td>Web accessibility</td>
+                    <td>Pastusa</td>
+                    <td>5</td>
+                    <td>$20.000</td>
+                    <td>$100.000</td>
+                </tr>
+                <tr>
+                    <td>Fazenda</td>
+                    <td>Carne</td>
+                    <td>3</td>
+                    <td>$15.000</td>
+                    <td>$45.000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row" colspan="4">Total</th>
+                    <th>$295.000</th>
+                </tr>
+                <tr>
+                    <td colspan="5"><textarea id="comentarios" name="comentarios" rows="5" cols="51">
+            Escribe tus comentarios...
+            </textarea></td>
+                </tr>
+            </tfoot>
+        </table>
+        <br><br><br><br>
+        <table>
+            <table>
+                <table border="2">
+                    <tbody>
+                        <th>Producto</th>
+                        <th>Categoría</th>
+                        <th>Cantidad</th>
+                        <th>Precio</th>
+                        <tr>
+                            <td>Producto</td>
+                            <td>categoria</td>
+                            <td>Cantidad</td>
+                            <td>Precio</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" rowspan="2">Observaciones</td>
+                            <td colspan="2" rowspan="2">
+                                <textarea name="" id=""></textarea>
+                            </td>
+                        </tr>
+                        <tr></tr>
+                        <th colspan="4"><button>Agregar Producto</button></th>
+
+                    </tbody>
+                    <tfoot>
+
+                    </tfoot>
+    </div>
+</body>
+</html>

@@ -1,0 +1,116 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: #eee;
+    color: #333;
+    font: 16px/28px Georgia,'Times new Roman', Times, Serif;
+}
+h1, h2{
+    font-family: 'Droid serif', sans-serif;
+    text-shadow: 0 2px 0 #fff;
+}
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 26px;
+}
+header h1{
+    font-size: 40px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+div.contenedor{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: 100%;
+    overflow: hidden;
+    background: rgba(204,204,204, .4);
+    border-radius: 5px 5px 10px 10px;
+}
+header, nav, section, article, footer{
+    border-radius: 10px;
+    padding: 15px;
+    border: solid 2px black;
+    margin-top: 10px;
+}
+header{
+    height: 60px;
+    width: 100%;
+    float: center;
+    background-color: #ffaaaa;
+    overflow: hidden;
+}
+nav{
+    width: 36%;
+    float: left;
+    background-color: #fff0aa;
+    margin-left: 10px;
+}
+section{
+    /* height: 500px; */
+    width: 62%;
+    float: right;
+    background-color: #d8b0ff;
+}
+footer{
+    height: 40px;
+    width: 100%;
+    background-color: #b0e8ac;
+    overflow: hidden;
+}
+header, footer, article{
+    margin-bottom: 10px
+}
+article{
+    /*height: 30%; */
+    width: 90%;
+    float: center;
+    background-color: #aaf0ff;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
